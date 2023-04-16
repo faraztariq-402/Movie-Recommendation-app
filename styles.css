@@ -1,0 +1,64 @@
+/* label{
+    display: flex;
+    justify-content: space-around;
+} */
+.headings{
+    display: flex;
+    justify-content: space-around;
+}
+.listItems{
+    display: flex;
+    list-style-type: none;
+
+}
+.childList{
+    margin: 0.3rem;
+}
+#movieList{
+    list-style-type: decimal;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  
+    
+}
+.movieList-li{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.headings{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}
+.yearFont{
+    font-size: 1.3rem;
+}
+input{
+    height: 2rem;
+    width: 6rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border-radius:0.6rem ;
+}
+button{
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 0.6rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: burlywood;
+    color: white;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.childList {
+    list-style-type: decimal;
+  }
